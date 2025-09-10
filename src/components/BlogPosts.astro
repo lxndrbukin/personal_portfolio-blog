@@ -8,8 +8,8 @@ const posts = (await getCollection('blog')).sort(
 );
 ---
 
-<div class="max-w-[800px] mx-auto my-8">
-  <h2>Blog Posts</h2>
+<div class="max-w-[800px] mx-auto my-10">
+  <h2 class="my-2">Blog Posts</h2>
   <div class="grid grid-cols-3 gap-[20px]">
     {
       posts.map((post) => (
