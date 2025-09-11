@@ -9,7 +9,6 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   site: "https://lxndrbukin.github.io",
-  base: "/personal_portolio-blog",
   integrations: [mdx(), sitemap()],
 
   vite: {
